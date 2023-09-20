@@ -11,3 +11,4 @@ www.foo.com : est le nom d'hôte. C'est le nom du serveur (= emaplacement physiq
 
 ?query=mer : est le paramètre de la requête. Il indique ici que le mot 'Mer' fait l'objet de la recherche dans le formulaire.
 
+![image](https://github.com/Benedicte141/Bloc1/assets/143993873/913d2b7c-328f-4cac-a32c-cf8f7d92c003)
