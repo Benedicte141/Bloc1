@@ -45,3 +45,6 @@ exemple de requête méthode POST :
 sources :
 https://fr.w3docs.com/apprendre-html/methodes-http.html
 https://www.maxicours.com/se/cours/la-transmission-d-un-formulaire-avec-get-ou-post/
+
+![image](https://github.com/Benedicte141/Bloc1/assets/143993873/24cec67f-9350-431f-9c7b-91f987b820b7)
+
