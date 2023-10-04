@@ -1,3 +1,24 @@
-{
-	"folders": []
+body {
+  font-family: Helvetica;
+  background-color: black;
+  padding: 10rem;
+  }
+h1 {
+  text-align: center;
+  font-size: 200%; 
+  color: rgb(255, 230, 0);
+
 }
+
+h2 {
+  text-align: left;
+  font-size: 150%; 
+    color: rgba(247, 229, 69, 0.966);
+  
+  }
+a {
+    color: rgb(224, 221, 175);
+  
+  }
+
+  
