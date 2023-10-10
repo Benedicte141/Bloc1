@@ -2,9 +2,8 @@ body {
   font-family: sans-serif;
   background-color: white;
   color: rgb(119, 119, 123);
-  align="justify" and "center;"
   padding: 50px;
-  margin : 100px 
+  margin : 100px;
   }
 h1 {
   text-align: left;
@@ -21,15 +20,15 @@ h2 {
     
   h3 {
     text-align: left;
-    font-weight : bold
+    font-weight : bold;
     font-size: 100%; 
-    color: grey
+    color: grey;
           
     }
 a {
     color: rgb(224, 221, 175);
   
   }
-span {
-  color: blue;
+p>span {
+  color: crimson;
 }
