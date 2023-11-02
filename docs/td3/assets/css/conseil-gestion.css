@@ -29,11 +29,9 @@ body {
  
 .box {
   display: flex;
-  /*float: center;*/
   transform: translateX(110%);
   flex-direction: column;
   justify-content: center;
-  /*align-content: center;*/
   position: relative;
   color: beige;
   margin-right: 15px;
@@ -43,6 +41,21 @@ body {
   background-color: rgb(228, 118, 29);
   padding: 1em;
   }
+
+.id ="Partie 1" {
+  display: flex;
+  transform: translateX(110%);
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  color: beige;
+  margin-right: 15px;
+  width: 320px;
+  height: 130px;
+  border-radius: 8px;
+  background-color: rgb(228, 118, 29);
+  padding: 1em;
+}
 
 h1 {
   display: flex;
