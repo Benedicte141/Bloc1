@@ -1,0 +1,83 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+header {
+position: fixed;
+top: 0;
+left: 0;
+margin: 0;
+width: 100%;
+height: 140px;
+background-color: rgb(172, 167, 167);
+}
+
+body { 
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  top: 100px;
+  position :absolute;
+  background-image: url(C:\Bloc1\docs\td3\docs\assets\css\images\df-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+.box {
+  display: flex;
+  float: center;
+  justify-content: center;
+  position: relative;
+  color: beige;
+  margin-right: 15px;
+  width: 450px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: rgb(228, 118, 29);
+  padding: 1em;
+  }
+
+/*.div box {
+  display: flex;
+  float: center;
+  text-align: center;
+  align-items:center;
+  color: beige;
+  margin-right: 15px;
+  width: 430px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: rgb(228, 118, 29);
+  padding: 1em;
+}
+
+.box p {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: 200%; 
+  color: rgb(233, 232, 224);
+  }
+
+h2 {
+  text-align: left;
+  font-size: 150%; 
+  color: rgba(247, 229, 69, 0.966);
+   }*/
+
+footer {
+  background-color: rgb(58, 58, 58) ;
+  padding: 0px;
+  color: beige; 
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  }
+
