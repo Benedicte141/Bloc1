@@ -42,7 +42,7 @@ body {
   padding: 1em;
   }
 
-.id ="Partie 1" {
+.Partie 1 {
   display: flex;
   transform: translateX(110%);
   flex-direction: column;
