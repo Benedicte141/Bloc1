@@ -27,26 +27,12 @@ body {
   background-size: cover;
 }
  
-.box {
+.box1 {
   display: flex;
   transform: translateX(110%);
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  color: beige;
-  margin-right: 15px;
-  width: 320px;
-  height: 130px;
-  border-radius: 8px;
-  background-color: rgb(228, 118, 29);
-  padding: 1em;
-  }
-
-.Partie 1 {
-  display: flex;
-  transform: translateX(110%);
-  flex-direction: column;
-  justify-content: center;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items: center;
   position: relative;
   color: beige;
   margin-right: 15px;
@@ -57,39 +43,19 @@ body {
   padding: 1em;
 }
 
-h1 {
+.box2 {
   display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  font-size: 200%; 
-  color: beige;
-  }
+  flex-direction: column;
+  justify-content:last baseline;
+  color: rgb(5, 5, 0);
+  margin-right: 15px;
+  width: 320px;
+  height: 130px;
+  border-radius: 8px;
+  background-color: rgb(241, 239, 238);
+  padding: 1em;
+}
 
-h2 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  font-size: 200%; 
-  color: beige;
-   }
-  
- h4 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  color: beige;
-     }
-    
- h6 {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  color: beige;
-     }
 
 footer {
   background-color: rgb(58, 58, 58) ;

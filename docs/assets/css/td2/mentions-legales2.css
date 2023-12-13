@@ -1,19 +1,17 @@
 nav {
     background-color: #121111;
-    padding: 10px;
+    padding: 20px;
     color: antiquewhite;
-
   }
   
   ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
   }
   
   li {
-    display: flex;
-    justify-content: space-around;
+    color: rgb(236, 10, 244);
+    list-style-type: square;
   }
   
   
@@ -44,8 +42,7 @@ body {
       color: grey;
             
       }
-     
-    }
+    
   span {
     color : crimson;
   }
