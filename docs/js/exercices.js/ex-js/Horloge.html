@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horloge</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div id="my-clock">
+        <h1>Heure actuelle</h1>
+      </div>
+    
+      <script>
+        const clock = document.querySelector("#my-clock");
+    
+        clock.addEventListener("click", () => {
+          const now = new Date();
+    
+          const hour = now.getHours();
+          const minute = now.getMinutes();
+          const second = now.getSeconds();
+    
+          clock.textContent = `${hour}:${minute}:${second}`;
+        });
+      </script>
+</body>

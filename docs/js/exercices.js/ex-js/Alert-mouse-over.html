@@ -1,0 +1,24 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alert-mouse-over</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div id="my-element">
+        Attention si vous survolez cet élément avec la souris !
+      </div>
+    
+      <script>
+        const element = document.querySelector("#my-element");
+    
+        element.addEventListener("mouseover", () => {
+          alert("Vous avez passé la souris sur cet élément !");
+        });
+      </script>
+</body>

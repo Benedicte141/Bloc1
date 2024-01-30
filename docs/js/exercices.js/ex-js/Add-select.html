@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add-select</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <input type="text" id="my-input" />
+    <input type="button" value="Ajouter" />
+  
+    <ul id="my-list"></ul>
+  
+    <script>
+      const button = document.querySelector("input[type='button']");
+      const input = document.querySelector("input[id='my-input']");
+      const list = document.querySelector("ul[id='my-list']");
+  
+      button.addEventListener("click", () => {
+        const item = document.createElement("li");
+        item.innerText = input.value;
+        list.appendChild(item);
+      });
+    </script>
+</body>

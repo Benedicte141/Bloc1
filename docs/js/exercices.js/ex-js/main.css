@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(216, 182, 182);
+}
+
+input[type="button"] {
+    background-color: #ee7a0e;
+    color: #ffffff;
+    font-size: 16px;
+  }
