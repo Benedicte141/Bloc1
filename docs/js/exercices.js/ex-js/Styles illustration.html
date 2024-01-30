@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Styles illustration</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <h1>Changer les attributs de style d'un texte</h1>
+
+
+<div id="my-size">
+  <label for="size">Taille : </label>
+  <input type="number" id="size" min="1" max="50">
+</div>
+
+<div id="my-color">
+  <label for="color">Couleur : </label>
+  <input type="color" id="color">
+</div>
+
+<div id="my-font">
+  <label for="font">Police : </label>
+  <select id="font">
+    <option value="Arial">Arial</option>
+    <option value="Times New Roman">Times New Roman</option>
+    <option value="Verdana">Verdana</option>
+  </select>
+</div>
+
+<div id="my-weight">
+  <label for="weight">Épaisseur : </label>
+  <select id="weight">
+    <option value="normal">Normal</option>
+    <option value="bold">Gras</option>
+    <option value="italic">Italique</option>
+  </select>
+</div>
+
+<div id="my-frame">
+    <div id="my-text">
+    Ce texte peut être modifié.
+  </div>
+</div>
+
+<script>
+  const frame = document.querySelector("#my-frame");
+  const text = document.querySelector("#my-text");
+  frame.appendChild(text);
+  const size = document.querySelector("#size");
+  const color = document.querySelector("#color");
+  const font = document.querySelector("#font");
+  const weight = document.querySelector("#weight");
+
+  size.addEventListener("change", () => {
+    text.style.fontSize = size.value + "px";
+  });
+
+  color.addEventListener("change", () => {
+    text.style.color = color.value;
+  });
+
+  font.addEventListener("change", () => {
+    text.style.fontFamily = font.value;
+  });
+
+  weight.addEventListener("change", () => {
+    text.style.fontWeight = weight.value;
+  }); 
+
+ 
+</script>
+
+
+</body>
